@@ -1,6 +1,5 @@
-Project Title: Laundry Appointment System (Mobile App)
-Project Description:
-The Laundry Appointment System is a simple mobile app that allows customers to book a
+Project Title: Quick Wash Scheduler App
+Project Description: The Quick Wash Scheduler App is a simple mobile app that allows customers to book a
 schedule for their laundry. Instead of waiting in line, users can choose a service, select a
 date and time, and confirm their appointment.
 
