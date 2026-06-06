@@ -1,50 +1,19 @@
-# Welcome to your Expo app 👋
+Project Title:
+Laundry Appointment System (Mobile App)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Project Description:
+The Laundry Appointment System is a simple mobile app that allows customers to book a
+schedule for their laundry. Instead of waiting in line, users can choose a service, select a
+date and time, and confirm their appointment.
+The system also allows the laundry shop staff to view and manage all appointments. This
+helps make the process faster, more organized, and convenient for both customers and
+staff.
 
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Detailed System Flow:
+1. User Side (Customer)- The user opens the mobile app.- The user logs in or enters their name.- The user selects a laundry service (wash, dry, or fold).- The user chooses a date and time.- The user confirms the appointment.- The system saves the booking and shows a confirmation message.
+2. Admin Side (Staff)- The staff logs into the system.- The staff views all appointments.- The staff checks the customer details and service requested.- The staff updates the status (pending, ongoing, completed).
+3. System Process
+Input: User enters booking details
+Process: System checks and saves the data
+Storage: Data is saved in Firebase
+Output: Confirmation is shown on screen
